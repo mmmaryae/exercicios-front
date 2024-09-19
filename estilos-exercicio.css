@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+
+    background-color: #a88bec;
+    background-image: linear-gradient(135deg, #a88bec 0%, #9599E2 100%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+    text-align: center;
+}
+
+
+h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: rgb(201, 172, 231);
+    border-radius: 40px;
+    box-shadow: rgba(220, 217, 223, 0.514) 10px 10px 7px;
+    padding: 20px;
+    width: 55%;
+    margin: auto;
+}
+
+
+
+img {
+    max-width: 100%;
+
+}
+
+p {
+
+    font-size: 18px;
+    line-height: 1.5;
+
+}
+
+ol li a {
+
+    color: blueviolet;
+
+}
+
+figure img {
+
+    filter: grayscale();
+    transition: 2s;
+}
+
+figure img:hover {
+
+    filter: none;
+
+}
+
+p a {
+    background-color: rgb(161, 92, 170);
+    display: block;
+    width: 15%;
+    border: solid 2px rgb(112, 49, 112);
+    box-sizing: border-box;
+    text-align: center;
+    margin: auto;
+}
+
+p a:hover {
+
+    background-color: rgba(24, 0, 48, 0.315);
+    transform: scale(1);
+    opacity: 1;
+}
+
+
+figcaption {
+    color: rgb(47, 27, 66);
+    font-weight: bold;
+}
+
+
+
+ul li::marker {
+
+    content: "💜"
+
+
+}
+
+ul li{
+
+    list-style-position: inside;
+}
+
+
+ol li::marker {
+    color: rgb(203, 193, 211);
+   
+}
+
+h2{
+
+
+
+
+
+}
